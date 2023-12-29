@@ -1,0 +1,125 @@
+/* Use @import directive to import fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+body {
+  font-family: sans-serif;
+  background-color: #F5E7DA;
+}
+
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.picture{
+    width: 100%;
+}
+
+.img{
+  width: 323px;
+  height: 209px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #D9D9D9;
+}
+
+.card{
+  width: 323px;
+  height: 253px;
+  border-radius: 0px 0px 10px 10px ;
+  box-shadow: 0px 7px 29px 0px #64646F33;
+  background-color: #FFFFFF;
+}
+
+.infos{
+  padding-left: 25px;
+  font-family: 'Mulish', sans-serif;
+}
+
+
+.card-type{
+  width:102px;
+  height: 19px;
+  background-color: #F97316;
+  
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;  
+  
+  
+  line-height: 15.06px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+h2{
+  width: 273px;
+  height: 46px;
+  font-weight: 700;
+  
+  font-size:18px;
+  line-height: 22.59px;
+  color: #10182F;
+}
+
+h3{
+  width: 273px;
+  height: 40px;
+
+  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #10182F;
+
+}
+.Group8{
+  display: flex;
+}
+
+.img-user{
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 40px;
+}
+
+
+.post-infos{
+  width: 106px;
+  height: 43px;
+  padding: 0px 0px 0px 16px;
+  letter-spacing: 0px;
+}
+
+.name-user{
+  width: 90px;
+  height: 20px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  
+  text-align: left;
+
+
+}
+
+.data-post{
+  width: 49px;
+  height: 18px;
+  color:#545D7A;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  
+  text-align: left;
+
+}
